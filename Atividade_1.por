@@ -18,5 +18,10 @@ programa
 		IdadeAno = IdadeMes + IdadeAno
 		SegVida = IdadeAno * 31557600
 		escreva("Voce ja viveu aproximadamente ", SegVida, " segundos.")
-	}
+		inteiro idade
+		escreva("Qual  a sua idade?")
+		leia(idade)
+		real IdadeMer = Idade * 0.24
+		real IdadeVen= Idade * 0.61
+		...
 }
