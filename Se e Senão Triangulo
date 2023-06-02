@@ -1,0 +1,30 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real LA, LB, LC
+		escreva("Lado A: ")
+		leia(LA)
+		escreva("Lado B: ")
+		leia(LB)
+		escreva("Lado C: ")
+		leia(LC)
+
+		se(
+			(LA < LB + LC) e (LB < LA + LC) e ( LC < LA + LB)) {
+			se(LA == LB e LB == LC e LB == LC){
+				escreva("Triângulo equilátero")
+			}
+			se(LA == LB ou LA == LC ou LB == LC){
+				escreva("Triangulo isósceles")
+			}
+			se (LA != LB e LB != LC e LB != LC){
+				escreva("Triangulo escaleno")
+			}
+		} senao {
+			escreva("Não é triangulo")
+		}
+		}
+		
+	}
