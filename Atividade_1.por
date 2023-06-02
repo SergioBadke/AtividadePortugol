@@ -3,6 +3,7 @@ programa
 	
 	funcao inicio()
 	{
+	escreva("Atividade 1 e 2\n")
 	inteiro HorasAno = 365 * 24
 	inteiro MinsAno = HorasAno * 60
 		escreva("Um ano tem ", HorasAno , " horas\n")
