@@ -1,0 +1,20 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+	inteiro CaraCoroa
+	
+	CaraCoroa = u.sorteia(1, 2)
+
+	se(CaraCoroa == 1){
+		escreva ("Cara")
+	}
+	se(CaraCoroa == 2){
+		escreva ("Coroa")
+	}
+	
+	}
+}
