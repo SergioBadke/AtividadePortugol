@@ -1,0 +1,48 @@
+programa 
+{
+	funcao inicio ()
+	{	
+		
+		const real PrecoLapis = 1.50
+		const real PrecoCaneta = 2.00
+		const real PrecoBorracha = 2.50
+
+		cadeia nome, CPF
+		inteiro QuantidadeLapis, QuantidadeCaneta, QuantidadeBorracha
+		real TotalLapis, TotalCaneta, TotalBorracha, TotalPagar
+		escreva("=== Valor Lápis ====== 1,50 R$ ==\n")
+		escreva("=== Valor Caneta ===== 2,00 R$ ==\n")
+		escreva("=== Valor Borracha === 2,50 R$ ==\n\n\n")
+
+		escreva("Digite seu nome: ") 
+		leia(nome) 
+		
+		escreva("\nDigite a quantidade de Lapis que deseja comprar: ") 
+		leia(QuantidadeLapis)
+		
+		escreva("Digite a quantidade de canetas que deseja comprar: ") 
+		leia(QuantidadeCaneta)
+
+		escreva("Digite a quantidade de borrachas que deseja comprar: ") 
+		leia(QuantidadeBorracha)
+		escreva("Se quiser, insira seu CPF na nota? ")
+		leia(CPF)
+
+		TotalLapis = PrecoLapis * QuantidadeLapis
+		TotalCaneta = PrecoCaneta * QuantidadeCaneta
+		TotalBorracha = PrecoBorracha * QuantidadeBorracha
+		
+		TotalPagar = TotalLapis + TotalCaneta + TotalBorracha
+
+		limpa()
+		
+		escreva("Cliente: ", nome, "\n")
+		escreva("===============================\n")
+		escreva("Lapis: ", QuantidadeLapis, "\n")
+		escreva("Caneta: " , QuantidadeCaneta, "\n")
+		escreva("Borracha: ", QuantidadeBorracha, "\n")
+		escreva("===============================\n")
+		escreva("CPF: ", CPF,"\n")
+		escreva("Total a pagar:  R$ ", TotalPagar, "\n")
+	} 
+}
