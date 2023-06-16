@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro N, S = 0
+		escreva("Primeiro numero: ")
+		leia(N)
+		enquanto(N != 0){
+			S = S + N
+			escreva("Proximo numero: ")
+			leia(N)	
+		}
+	escreva("Soma: ", S)
+	}
+}
