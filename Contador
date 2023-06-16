@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro Numero = 0
+		enquanto(Numero <= 100){
+			escreva(Numero, "\n")
+			Numero = Numero + 1
+		}
+	}
+}
