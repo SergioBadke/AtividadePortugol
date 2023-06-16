@@ -1,0 +1,19 @@
+programa
+{
+	inclua biblioteca Util
+ --> u
+	
+	funcao inicio()
+	{
+	inteiro Dado = 0, Chute = 1, Tentativa = 0
+	enquanto(Dado != Chute){
+		escreva("\nQual seu chute? ")
+		leia(Chute)
+		Dado = u.sorteia(1, 6)
+		escreva("\nO numero que caiu foi ")
+		escreva(Dado)
+		Tentativa = Tentativa + 1
+	}
+	escreva("\nVocê acertou em ", Tentativa, " tentivas.")
+	}
+}
