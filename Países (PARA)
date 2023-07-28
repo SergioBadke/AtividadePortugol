@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro PaisA = 80000
+		inteiro PaisB = 200000
+		inteiro Ano
+		
+		para(Ano = 0; PaisB > PaisA; Ano++){
+			PaisA+=PaisA * 0.03		//TAXA A\\
+			PaisB+=PaisB * 0.015	//TAXA B\\
+		}
+		escreva("Levara ",Ano," anos para país A ultrapassar ou igualar país B.")
+	}
+}
