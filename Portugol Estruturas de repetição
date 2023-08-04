@@ -1,0 +1,37 @@
+Paises
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro PaisA = 80000
+		inteiro PaisB = 200000
+		inteiro Ano
+		
+		para(Ano = 0; PaisB > PaisA; Ano++){
+			PaisA+=PaisA * 0.03		//TAXA A\\
+			PaisB+=PaisB * 0.015	//TAXA B\\
+		}
+		escreva("Levara ",Ano," anos para país A ultrapassar ou igualar país B.")
+	}
+}
+
+Fibonacci
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro F = 0
+		inteiro I = 1
+		inteiro B = 0
+		para(inteiro i=1; i<=20; i++){
+			escreva(F, ";")
+			B=F
+			F=I+F
+			I=B
+		}
+	}
+}
+
+Potencialização
